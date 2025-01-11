@@ -14,7 +14,7 @@ const taskSchema = new mongoose.Schema({
     type : {
         type : String,
         required : true,
-        enum : ["Planned", "ADHOC"],
+        enum : ["Planned", "ADHOC", "On-going"],
     },
     assigned_sp :{
         type: Number,
